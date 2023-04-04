@@ -27,11 +27,66 @@ body{
     width:350px;
     height: auto;
     max-width: 100%;
-    padding:15px;
+    padding:20px;
     display:flex;
     flex-direction: column;
+    color:var(--lettersColor);
+    font-weight: bold;
+    line-height: 2.8rem;
     background-color: var(--backgroundStrong);
     border-radius: 15px;
-    box-shadow:0 2px 10px rgba(255,255,255,0.20);
+    box-shadow:0 10px 10px rgba(255,255,255,0.40);
 
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.result-container{
+    padding:12px 10px;
+    height: 50px;
+    width:100%;
+    gap:6px;
+    margin-bottom:15px;
+    background-color: rgba(0,0,0,0.4);
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    position:relative;
+    font-size:1.8rem;
+    letter-spacing: 1px;
+    
+}
+.result-container #result{
+    word-wrap: break-word;
+    max-width: calc(100% - 40px);
+    overflow-y:scroll;
+    height: 100%;
+}
+#result::-webkit-scrollbar{
+    width:1rem;
+}
+.result-container .btn{
+    
+    top:5px;
+    right:5px;
+    width:40px;
+    width:40px;
+    height: 36px;
+    font-size: 20px;
+}
+.container label{
+    font-size: 1.8rem;
+    margin-bottom: 5px ;
+    
+}
+.btn{
+    border:none;
+    background-color: var(--backgroundBody);
+    color:var(--lettersColor);
+    font-size: 1.6rem;
+    padding:8px 12px;
+    cursor:pointer;
 }
