@@ -74,7 +74,7 @@ body{
     right:5px;
     width:40px;
     width:40px;
-    height: 36px;
+    height: 45px;
     font-size: 20px;
 }
 .container label{
@@ -114,6 +114,7 @@ body{
 .fa-clipboard{
     width:31px;
     height: 40px;
+    
     position:absolute;
     bottom:5px;
     right: 15px;
