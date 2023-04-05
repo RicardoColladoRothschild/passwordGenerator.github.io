@@ -110,3 +110,15 @@ body{
     text-align: end;
     margin-top: 25px;
 }
+
+.fa-clipboard{
+    width:31px;
+    height: 40px;
+    position:absolute;
+    bottom:5px;
+    right: 15px;
+    background-image: url('./clipboard-solid.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
